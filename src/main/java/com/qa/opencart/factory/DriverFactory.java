@@ -30,7 +30,7 @@ public class DriverFactory {
 	/**
 	 * This is used to initiliaze the driver
 	 * 
-	 * @param browserName
+	 * /@param browserName
 	 * @return it returns driver
 	 */
 	public WebDriver initDriver(Properties prop) {
