@@ -63,7 +63,7 @@ public class LoginPageTest extends BaseTest {
 
 	@Description("checking dummy test")
 	@Severity(SeverityLevel.MINOR)
-	@Test(priority = 6, enabled=fase)
+	@Test(priority = 6, enabled=false)
 	public void dummyTest() {
 		Assert.assertEquals(true, true);
 	}
