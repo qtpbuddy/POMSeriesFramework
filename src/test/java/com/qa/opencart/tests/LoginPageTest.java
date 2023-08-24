@@ -68,4 +68,11 @@ public class LoginPageTest extends BaseTest {
 		Assert.assertEquals(true, true);
 	}
 
+	@Description("checking webhook test")
+	@Severity(SeverityLevel.MINOR)
+	@Test(priority = 6, enabled=false)
+	public void webHookTest() {
+		Assert.assertEquals(true, true);
+	}
+
 }
